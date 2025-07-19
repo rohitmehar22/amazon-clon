@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    height: auto;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 6px 20px;
+    gap: 10px;
+}
+
+/* Logo */
+.navlogo {
+    height: 56px;
+    width: 100px;
+    flex-shrink: 0;
+}
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    background-position: center;
+    height: 55px;
+    width: 100%;
+}
+
+/* Hover Border */
+.border {
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.border:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* Address */
+.navaddress {
+    min-width: 150px;
+}
+.firstadd {
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.secondadd {
+    margin-left: 7px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Search */
+.searchingbar {
+    display: flex;
+    flex: 2;
+    height: 40px;
+    min-width: 200px;
+    max-width: 600px;
+    width: 100%;
+}
+.all {
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background-color: #e6e6e6;
+    padding-left: 10px;
+    color: #222f3d;
+}
+.searcher {
+    flex: 1;
+    border: none;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: #222f3d;
+}
+.searchicon {
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 112, 32);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.searchingbar:hover {
+    border: 2px solid orange;
+    border-radius: 7px;
+}
+
+/* Region */
+.region {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.flag {
+    height: 17px;
+    width: 20px;
+}
+.language {
+    background: none;
+    color: aliceblue;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Login */
+.login {}
+.signin {
+    font-size: 0.9rem;
+    margin-left: 4px;
+}
+.accountlists {
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Orders */
+.oders {}
+.return {
+    font-size: 0.9rem;
+}
+.order {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Cart */
+.carttext {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.cart i {
+    font-size: 30px;
+}
+
+/*********nav1 end*********/
+.nav2{
+    height: auto;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px 10px;
+}
+.navoptions{
+    display: flex;
+    align-items: center;
+    font-weight: 530;
+    font-size: 0.9rem;
+   
+}
+.navoptions i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.navoptions a{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navoptions p{
+     margin-left: 20px;
+}
+/* nav2 end */
+.hero-scn{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.comment-pnnl{
+    height: 40px;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.comment-pnnl a{
+    color: rgb(0, 255, 242);
+}
+/* shop-scn */
+.shop-scn{
+    background-color: #858d96a5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 350px;
+    width: 22%;
+    margin-top: 5px;
+    background-color: aliceblue;
+}
+.box1-img{
+    width: 90%;
+    height: 250px;
+    margin-top: 10px;
+
+}
+.box-content{
+      margin-top: 20px;
+      margin-left: 20px;
+}
+.box-content h2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2a2d32;
+}
+.box-content p{
+    font-size: 0.7rem;
+    margin-top: 20px;
+    color: rgb(0, 168, 112);
+}
+/** recommedetation */
+.recommendation{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.signinn{
+    height: 30px;
+    width: 200px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.recommendation p{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.recommendation a{
+    color: rgb(18, 25, 228);
+}
+/* back-to-top */
+.back-to-top{
+    height: auto;
+    padding: 15px 15px;
+    text-align: center;
+      background-color: #49586D  ;
+    color: rgb(226, 225, 225);
+}
+.back-to-top a{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+/* advertisment start */
+.advertisment{
+    height: auto;
+    background-color: #212D3E;
+}
+.ad-options{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.ad-options ul{
+    list-style: none;
+    margin-top: 10px;
+    color: #bbbaba; 
+}
+.ad-options li{
+    margin-top: 10px;
+}
+.ad-options h3{
+    color: white;
+}
+/* bootom logo */
+.bottom-language-country{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px ;
+}
+.bottom-logo{
+    height: 60px;
+    width: auto;
+    background-size: cover;
+    margin-right: 80px;
+}
+/* .english-option{
+    height: 30px;
+    width:  150px;
+    background: transparent;
+    color: #cccccc;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-image: url(globe-showing-europe-africa-ncfovglg9ymnsakncrw9u.webp);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+} */
+ .english-option {
+  height: 35px;
+  width: 130px;
+  background: transparent url('icons8-globe-50.png') no-repeat 10px center;
+  background-size: 16px 16px;
+  color: #cccccc;
+  border-radius: 3px;
+  padding-left: 30px;  /* To make space for the icon */
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #cccccca4;
+  margin-right: 15px;
+}
+ .india-option {
+  height: 35px;
+  width: 100px;
+  background: transparent url('flag-800.png') no-repeat 10px center;
+  background-size: 16px 12px;
+  color: #cccccc;
+  border-radius: 3px;
+  padding-left: 30px;  /* To make space for the icon */
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #cccccca4;
+}
+.line{
+  height: 0.5px; /* Patla line */
+  background-color: #8484846f; /* Line color */
+  border: none; /* Remove default border */
+}
+/* bottom-reference */
+.bottom-reference{
+ background-color: #10151e;
+ flex-wrap: wrap;
+}
+.reference-part1{
+    display: flex;
+    color: #999999;
+    font-size: 0.8vw;
+    text-align: start;
+    justify-content: space-evenly;
+    margin: 0% 32% 0.6% 15%;
+    padding-top: 2%;
+}
+.reference-part2{
+    display: flex;
+    color: #999999;
+    font-size: 0.8vw;
+    justify-content: space-evenly;
+    margin: 0% 32% 2% 15%;
+}
+.reff{
+    height: 50px;
+    width: 20%;
+}
+.bottom-reference ul {
+    list-style: none;
+}
+.reference-head-tag{
+    color: #dddddd;
+    font-size: 0.8vw;
+}
+/* since */
+.since{
+    color:#dddddd ;
+    text-align: center;
+    font-size: 0.8vw;
+    padding:2% 2%;
+}
+.since a{
+    margin-right: 10px;
+}
+.since p{
+    margin-top: 5px;
+}
